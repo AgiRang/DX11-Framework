@@ -1,0 +1,18 @@
+shoot game
+
+shop : 
+sword sonicboom
+health up
+speed up
+damege up
+
+monster:
+m1 : just walk , normal armor
+m2 : fast walk , easy armor
+m3 : slow walk , hard tank
+
+catch monster %d
+used gold remove
+stage save gold
+
+

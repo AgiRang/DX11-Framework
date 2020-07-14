@@ -1,0 +1,6 @@
+m_enemy[0].Hp:3
+m_enemy[1].Hp:3
+m_enemy[2].Hp:3
+m_enemy[3].Hp:3
+m_enemy[4].Hp:3
+m_player.pos:100.5,100.5

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="GameNode.h" />
+    <ClInclude Include="MyFunc.h" />
+    <ClInclude Include="Object\Rect.h" />
+    <ClInclude Include="Object\Circle.h" />
+    <ClInclude Include="Singleton\SoundManager.h" />
+    <ClInclude Include="Singleton\SingletonBase.h" />
+    <ClInclude Include="Singleton\TimeManager.h" />
+    <ClInclude Include="Singleton\KeyManager.h" />
+    <ClInclude Include="Object\Shader.h" />
+    <ClInclude Include="Singleton\CameraManager.h" />
+    <ClInclude Include="Object\Image.h" />
+    <ClInclude Include="Singleton\ImageManager.h" />
+    <ClInclude Include="Singleton\WriteManager.h" />
+    <ClInclude Include="MiniGame\IsoTile.h" />
+    <ClInclude Include="Singleton\SceneManager.h" />
+    <ClInclude Include="MiniGame\TileMap.h" />
+    <ClInclude Include="MiniGame\Loading.h" />
+    <ClInclude Include="Kirby\Title.h" />
+    <ClInclude Include="Kirby\swordkirby.h" />
+    <ClInclude Include="Kirby\Shop.h" />
+    <ClInclude Include="Kirby\Village.h" />
+    <ClInclude Include="Singleton\KirbyManager.h" />
+    <ClInclude Include="Kirby\Levelmap.h" />
+    <ClInclude Include="Kirby\UI.h" />
+    <ClInclude Include="Kirby\Monster.h" />
+    <ClInclude Include="Singleton\gunterManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinAPI32.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Object\Rect.cpp" />
+    <ClCompile Include="Object\Circle.cpp" />
+    <ClCompile Include="Singleton\SoundManager.cpp" />
+    <ClCompile Include="Singleton\TimeManager.cpp" />
+    <ClCompile Include="Singleton\KeyManager.cpp" />
+    <ClCompile Include="Object\Shader.cpp" />
+    <ClCompile Include="Singleton\CameraManager.cpp" />
+    <ClCompile Include="Object\Image.cpp" />
+    <ClCompile Include="Singleton\ImageManager.cpp" />
+    <ClCompile Include="Singleton\WriteManager.cpp" />
+    <ClCompile Include="MiniGame\IsoTile.cpp" />
+    <ClCompile Include="Singleton\SceneManager.cpp" />
+    <ClCompile Include="MiniGame\TileMap.cpp" />
+    <ClCompile Include="MiniGame\Loading.cpp" />
+    <ClCompile Include="Kirby\Title.cpp" />
+    <ClCompile Include="Kirby\swordkirby.cpp" />
+    <ClCompile Include="Kirby\Shop.cpp" />
+    <ClCompile Include="Kirby\Village.cpp" />
+    <ClCompile Include="Kirby\Levelmap.cpp" />
+    <ClCompile Include="Kirby\UI.cpp" />
+    <ClCompile Include="Kirby\Monster.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Object\Basic.hlsl" />
+    <None Include="Object\Image.hlsl" />
+  </ItemGroup>
+</Project>
